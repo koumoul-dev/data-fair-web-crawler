@@ -1,0 +1,29 @@
+{
+  "name": "data-fair-web-scraper",
+  "version": "0.0.0",
+  "description": "A small Web scraper that publishes its data into data-fair datasets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix ."
+  },
+  "author": "Alban Mouton <alban.mouton@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3",
+    "config": "^3.3.2",
+    "event-to-promise": "^0.8.0",
+    "puppeteer": "^5.4.1",
+    "short-hash": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.0",
+    "eslint-config-standard": "^15.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2"
+  }
+}
